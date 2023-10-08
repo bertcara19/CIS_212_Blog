@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(66, 65, 63);
+  margin: 0px auto;
+  text-align: center;
+  background-image: url(space\ background.jpg);
+  max-width: 900px;
+}
+
+.header {
+  color: rgb(44, 238, 245);
+}
+.intro {
+  background-color: black;
+  color: yellow;
+  margin: 0px auto;
+  max-width: 375px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.author {
+  color: rgb(124, 218, 247);
+  font: bold;
+  font-style: italic;
+}
+.h2 {
+  color: beige;
+  font-style: bold;
+}
+.para {
+  color: beige;
+  max-width: 500px;
+  margin: auto;
+}
+.para-container {
+  max-width: 400px;
+}
+a:link, a:visited {
+  color: aquamarine;
+}
+a:active {
+  color: aquamarine;
+}
+a:hover {
+  color: rgb(8, 157, 243);
+}
+
+.collage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+  gap: 1px; /* Adjust the gap between images */
+}
+.collage-img {
+  max-width: 100%;
+  height: auto;
+}
+
+
